@@ -1,4 +1,4 @@
-**Orbital Mechanics Sandbox**
+## **Orbital Mechanics Sandbox**
 
 Four orbital-mechanics simulations from first principles: Chenciner–Montgomery figure-eight, Hohmann transfers, Mercury's GR precession, and the Earth–Sun Lagrange points.
 
@@ -9,7 +9,7 @@ Open `An_exploration_about_orbits.ipynb` in Google Colab or Jupyter and run cell
 - Built on: Python 3.12 (3.6+ should work)
 - Dependencies: `numpy`, `matplotlib`, `scipy`
 
-**Part 1: Three-Body**
+## Part 1: Three-Body
 
 First, I attempted to use Euler-Cromer, where bodies have the same mass, but one is fixed at the origin. This produced a symmetric, periodic-looking trajectory, but preserved by symmetry rather than by dynamical stability. Not the figure-eight.
 
@@ -23,9 +23,9 @@ Then, I used the known solutions for the initial conditions., found by Chenciner
 <img width="778" height="519" alt="Screenshot 2026-05-09 at 2 52 25 PM" src="https://github.com/user-attachments/assets/7bcd637f-05c5-46d4-a024-501021a3403c" />
  
 
-**Part 2: Hohmann**
+## Part 2: Hohmann
 
-In the next part, I simulated how a spacecraft transfers between Low Earth to Geostationary Orbits (two-impulse transfer from a 300 km circular LEO to GEO). then I performed a sweep over the orbit-ratio r₂/r₁ to see how total Δv scales. 
+In the next part, I simulated how a spacecraft transfers between Low Earth to Geostationary Orbits (two-impulse transfer from a 300 km circular LEO to GEO). Then, I performed a sweep over the orbit-ratio r₂/r₁ to see how total Δv scales. 
 
 LEO→GEO total Δv = 3.94 km/s; total Δv peaks at r₂/r₁ ≈ 15.58. 
 
@@ -36,7 +36,7 @@ I concluded the total Δv was NOT monotonic, peaking around 15. Three burns were
 <img width="768" height="470" alt="Unknown-1" src="https://github.com/user-attachments/assets/8af70f7f-b937-48ef-ab48-e3ac805f1046" />
 
 
-**Part 3: GR precession**
+# Part 3: GR precession
 
 Next, I added a small 1/r^3 perturbation to Newtonian gravity, and tracked perihelion angles. 
 
@@ -47,20 +47,20 @@ This is a crude but effective general relativistic approximation. The orbit visi
 
 Simulation gave 42.64 arcsec/century vs. Schwarzschild's 42.98, which agreed to within 0.8%
 
-Mercury's actual per-orbit precession is only ~0.1 arcsec, which is too small too see, so I added a second cell, which amplifies the effect over 10⁶ years for visibility. 
+Mercury's actual per-orbit precession is only ~0.1 arcsec, which is too small to see, so I added a second cell, which amplifies the effect over 10⁶ years for visibility. 
 
 <img width="702" height="701" alt="Unknown-3" src="https://github.com/user-attachments/assets/e9cded62-0e54-4d51-b5ba-f8266959cb44" />
 
 
-**Part 4: Lagrange Points**
+## Part 4: Lagrange Points
 
 Lastly, I found the stable and unstable Lagrange points. 
 
 I mapped the effective potential U_eff as a heat map across the Earth-Sun rotating frame, then used fsolve on ∇U_eff = 0 to locate the five Lagrange points.  
 
 <img width="959" height="790" alt="Unknown-4" src="https://github.com/user-attachments/assets/91ca1a7d-45d9-4831-a3b1-46c1b9ff087e" />
-I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles.
 
+I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles.
 
 **Extraneous/Philosphical notes:**
 
