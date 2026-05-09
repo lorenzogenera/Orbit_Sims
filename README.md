@@ -20,7 +20,7 @@ First, I attempted to use Euler-Cromer, where bodies have the same mass, but one
 
 <img width="654" height="290" alt="Screenshot 2026-05-09 at 2 51 59 PM" src="https://github.com/user-attachments/assets/becd0ce6-c689-4c66-af79-0acecf35a5ad" />
 
-Then, I used the known solutions for the initial conditions., found by Chenciner and Montgomery, in 2000. All three bodies trace the same curve, offset by one-third of a period. In this case, the orbit solution is incredibly sensitive. Changing or rounding any initial value causes a mass to fly off the curve within a few periods.
+Then, I used the known solutions for the initial conditions, found by Chenciner and Montgomery, in 2000. All three bodies trace the same curve, offset by one-third of a period. In this case, the orbit solution is incredibly sensitive. Changing or rounding any initial value causes a mass to fly off the curve within a few periods.
 
 <img width="778" height="519" alt="Screenshot 2026-05-09 at 2 52 25 PM" src="https://github.com/user-attachments/assets/7bcd637f-05c5-46d4-a024-501021a3403c" />
  
