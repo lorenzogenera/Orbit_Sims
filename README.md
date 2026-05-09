@@ -1,4 +1,4 @@
-## **Orbital Mechanics Sandbox**
+## Orbital Mechanics Sandbox
 
 Four orbital-mechanics simulations from first principles: Chenciner–Montgomery figure-eight, Hohmann transfers, Mercury's GR precession, and the Earth–Sun Lagrange points.
 
@@ -38,7 +38,7 @@ I concluded the total Δv was NOT monotonic, peaking around 15. Three burns were
 <img width="768" height="470" alt="Unknown-1" src="https://github.com/user-attachments/assets/8af70f7f-b937-48ef-ab48-e3ac805f1046" />
 
 
-# Part 3: GR precession
+## Part 3: GR precession
 
 Next, I added a small 1/r^3 perturbation to Newtonian gravity, and tracked perihelion angles. 
 
@@ -64,11 +64,10 @@ I mapped the effective potential U_eff as a heat map across the Earth-Sun rotati
 
 I found L1 at ~0.99 AU, L2 at ~1.01 AU and L3 at ~-1 AU. L1–L3 are saddles.
 
-L4 and L5 are at the equilateral-triangle positions. L4 and L5 are stable, 
+L4 and L5 are at the equilateral-triangle positions. L4 and L5 are stable. 
 
 
-## Additionally: 
-**Extraneous/Philosophical notes:**
+## Additionally/Philosophical notes: 
 
 I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. 
 
