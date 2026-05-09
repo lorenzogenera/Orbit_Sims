@@ -4,10 +4,12 @@ Four orbital-mechanics simulations from first principles: Chenciner–Montgomery
 
 Each section starts from first principles and implements its own numerical integrator or method (Euler-Cromer, RK2, Velocity Verlet and fsolve). 
 
-How to run:
+**How to run:**
+
 Open `An_exploration_about_orbits.ipynb` in Google Colab or Jupyter and run cells top-to-bottom. Cell 12 takes 30–60 s on a laptop.
 - Built on: Python 3.12 (3.6+ should work)
 - Dependencies: `numpy`, `matplotlib`, `scipy`
+  
 
 ## Part 1: Three-Body
 
@@ -64,6 +66,8 @@ I found L1 at ~0.99 AU, L2 at ~1.01 AU and L3 at ~-1 AU. L1–L3 are saddles.
 
 L4 and L5 are at the equilateral-triangle positions. L4 and L5 are stable, 
 
+
+## Additionally: 
 **Extraneous/Philosophical notes:**
 
 I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. 
