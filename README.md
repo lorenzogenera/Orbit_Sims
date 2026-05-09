@@ -4,15 +4,10 @@ Four orbital-mechanics simulations from first principles: Chenciner–Montgomery
 
 Each section starts from first principles and implements its own numerical integrator or method (Euler-Cromer, RK2, Velocity Verlet and fsolve). 
 
-How to run
-
+How to run:
 Open `An_exploration_about_orbits.ipynb` in Google Colab or Jupyter and run cells top-to-bottom. Cell 12 takes 30–60 s on a laptop.
-
 - Built on: Python 3.12 (3.6+ should work)
 - Dependencies: `numpy`, `matplotlib`, `scipy`
-
-
-The original class assignment was something to the effect of “reproduce the three body problem”
 
 **Part 1: Three-Body**
 
@@ -63,14 +58,15 @@ Lastly, I found the stable and unstable Lagrange points.
 
 I mapped the effective potential U_eff as a heat map across the Earth-Sun rotating frame, then used fsolve on ∇U_eff = 0 to locate the five Lagrange points.  
 
-I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles"
-
 <img width="959" height="790" alt="Unknown-4" src="https://github.com/user-attachments/assets/91ca1a7d-45d9-4831-a3b1-46c1b9ff087e" />
+I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles.
 
 
-Extraneous/Philosphical notes:
+**Extraneous/Philosphical notes:**
 
 I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. 
+
+I had a really good teacher, and the original problem was something like "build a 3 body orbit."
 
 I wanted to build this in google colab, to test its limitations and pitfalls as well. Truthfully, I sort of went down a rabbit hole, but it was a good time. 
 
