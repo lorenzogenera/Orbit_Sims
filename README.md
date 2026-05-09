@@ -60,9 +60,11 @@ I mapped the effective potential U_eff as a heat map across the Earth-Sun rotati
 
 <img width="959" height="790" alt="Unknown-4" src="https://github.com/user-attachments/assets/91ca1a7d-45d9-4831-a3b1-46c1b9ff087e" />
 
-I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles.
+I found L1 at ~0.99 AU, L2 at ~1.01 AU and L3 at ~-1 AU. L1–L3 are saddles.
 
-**Extraneous/Philosphical notes:**
+L4 and L5 are at the equilateral-triangle positions. L4 and L5 are stable, 
+
+**Extraneous/Philosophical notes:**
 
 I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. 
 
