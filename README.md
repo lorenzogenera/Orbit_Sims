@@ -1,4 +1,4 @@
-## Orbital Mechanics Sandbox
+# Orbital Mechanics Sandbox
 
 Four orbital-mechanics simulations from first principles: Chenciner–Montgomery figure-eight, Hohmann transfers, Mercury's GR precession, and the Earth–Sun Lagrange points.
 
@@ -56,9 +56,7 @@ Mercury's actual per-orbit precession is only ~0.1 arcsec, which is too small to
 
 ## Part 4: Lagrange Points
 
-Lastly, I found the stable and unstable Lagrange points. 
-
-I mapped the effective potential U_eff as a heat map across the Earth-Sun rotating frame, then used fsolve on ∇U_eff = 0 to locate the five Lagrange points.  
+Lastly, I found the stable and unstable Lagrange points, by mapping the effective potential U_eff as a heat map across the Earth-Sun rotating frame. then used fsolve on ∇U_eff = 0 to locate the five Lagrange points.  
 
 <img width="959" height="790" alt="Unknown-4" src="https://github.com/user-attachments/assets/91ca1a7d-45d9-4831-a3b1-46c1b9ff087e" />
 
