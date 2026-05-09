@@ -26,10 +26,7 @@ First, I attempted to use Euler-Cromer, where bodies have the same mass, but one
 Then, I used the known solutions for the initial conditions., found by Chenciner and Montgomery, in 2000. All three bodies trace the same curve, offset by one-third of a period. In this case, the orbit solution is incredibly sensitive. Changing or rounding any initial value causes a mass to fly off the curve within a few periods.
 
 <img width="778" height="519" alt="Screenshot 2026-05-09 at 2 52 25 PM" src="https://github.com/user-attachments/assets/7bcd637f-05c5-46d4-a024-501021a3403c" />
-
-
-Additionally: 
-I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. In this case, the solution is incredibly sensitive. Changing or rounding any initial value causes a mass to fly off the curve. 
+ 
 
 **Part 2: Hohmann**
 
@@ -69,3 +66,12 @@ I mapped the effective potential U_eff as a heat map across the Earth-Sun rotati
 I found L1 ≈ 0.99 AU, L2 ≈ 1.01 AU, L4/L5 at the equilateral-triangle positions; L4 and L5 are stable, L1–L3 are saddles"
 
 <img width="959" height="790" alt="Unknown-4" src="https://github.com/user-attachments/assets/91ca1a7d-45d9-4831-a3b1-46c1b9ff087e" />
+
+
+Extraneous/Philosphical notes:
+
+I believe learning from antecedent examples is an invaluable skill. To me, It is inspirational how simple the solutions from an engineer can be. 
+
+I wanted to build this in google colab, to test its limitations and pitfalls as well. Truthfully, I sort of went down a rabbit hole, but it was a good time. 
+
+I thought this was a lot of fun and challenging to do, but I hope to look back on it and see its dainty simplicity.
